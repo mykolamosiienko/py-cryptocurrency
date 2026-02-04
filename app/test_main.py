@@ -11,8 +11,8 @@ from typing import Union
         (100, 250, "Buy more cryptocurrency"),
         (100, 30, "Sell all your cryptocurrency"),
         (100, 102, "Do nothing"),
-        (105, 100, "Do nothing"),
-        (95, 100, "Do nothing"),
+        (100, 95, "Do nothing"),
+        (100, 105, "Do nothing")
     ],
 )
 @mock.patch("app.main.get_exchange_rate_prediction")
